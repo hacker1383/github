@@ -7,7 +7,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-bot = telebot.TeleBot('YOUR TOKEN') # makan token shoma
+bot = telebot.TeleBot('231231711:AAHbqQ-xVNjb69nAAdb2V6jmorsfsQyoEOM') # makan token shoma
 
 @bot.message_handler(commands=['start', 'help'])
 def m(m):
